@@ -1,0 +1,15 @@
+{
+    "name": "pczone/cas28composer",
+    "autoload": {
+        "psr-4": {
+            "PHP28\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vica-lab-dev",
+            "email": "vicomaletkovic@gmail.com"
+        }
+    ],
+    "require": {}
+}
