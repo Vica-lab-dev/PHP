@@ -2,7 +2,7 @@
 
 $fruit = $_POST["fruit"];
 
-if(!isset($_POST["fruit"]))
+if(!isset($fruit) || empty($fruit))
 {
     die("Fruit is required!");
 }
