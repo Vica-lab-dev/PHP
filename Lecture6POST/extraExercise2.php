@@ -2,7 +2,7 @@
 
 $number = $_POST["number"];
 
-if(!isset($number))
+if(!isset($number) || empty($number))
 {
     die( "Number is required!");
 }
