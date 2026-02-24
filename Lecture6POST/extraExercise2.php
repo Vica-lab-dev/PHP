@@ -4,7 +4,7 @@ $number = $_POST["number"];
 
 if(!isset($number))
 {
-    echo "Number is required!";
+    die( "Number is required!");
 }
 
 if($number % 2 === 0)
