@@ -1,0 +1,13 @@
+wamplangues/
+.idea/
+wampthemes/
+vendor/
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+# Local test files
+test_*.php
+add_*.php
