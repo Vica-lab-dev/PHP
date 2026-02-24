@@ -4,7 +4,7 @@ $name = $_POST["name"];
 
 if(!isset($_POST["name"]))
 {
-    echo "Name is required";
+    die("Name is required");
 }
 
 if(strlen($name) > 3)
