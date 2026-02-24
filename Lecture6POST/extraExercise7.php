@@ -2,7 +2,7 @@
 
 $temperature = $_POST["temperature"];
 
-if(!isset($temperature) || empty($temperature))
+if(!isset($temperature) || $temperature === "")
 {
     die("Field is required");
 }
