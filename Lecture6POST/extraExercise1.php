@@ -2,7 +2,7 @@
 
 $name = $_POST["name"];
 
-if(!isset($_POST["name"]))
+if(!isset($name) || empty($name))
 {
     die("Name is required");
 }
